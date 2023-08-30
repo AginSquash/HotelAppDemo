@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var hotelVM = HotelVM()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Button("Load", action: {
+                print(hotelVM.hotelPreviewData)
+            })
         }
         .padding()
     }

@@ -12,6 +12,8 @@
 		CD14878F2A9F8408007E1F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD14878E2A9F8408007E1F18 /* Assets.xcassets */; };
 		CD1487922A9F8408007E1F18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1487912A9F8408007E1F18 /* Preview Assets.xcassets */; };
 		CD1487992A9F8440007E1F18 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CD1487982A9F8440007E1F18 /* .gitignore */; };
+		CD14879B2A9F84B3007E1F18 /* HotelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14879A2A9F84B3007E1F18 /* HotelViewModel.swift */; };
+		CD14879D2A9F8573007E1F18 /* HotelPreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14879C2A9F8573007E1F18 /* HotelPreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		CD14878E2A9F8408007E1F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD1487912A9F8408007E1F18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD1487982A9F8440007E1F18 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CD14879A2A9F84B3007E1F18 /* HotelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewModel.swift; sourceTree = "<group>"; };
+		CD14879C2A9F8573007E1F18 /* HotelPreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelPreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				CD14878A2A9F8403007E1F18 /* HotelAppDemoApp.swift */,
 				CD14878C2A9F8403007E1F18 /* ContentView.swift */,
+				CD14879A2A9F84B3007E1F18 /* HotelViewModel.swift */,
+				CD14879C2A9F8573007E1F18 /* HotelPreviewData.swift */,
 				CD14878E2A9F8408007E1F18 /* Assets.xcassets */,
 				CD1487902A9F8408007E1F18 /* Preview Content */,
 			);
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD14878D2A9F8403007E1F18 /* ContentView.swift in Sources */,
+				CD14879D2A9F8573007E1F18 /* HotelPreviewData.swift in Sources */,
 				CD14878B2A9F8403007E1F18 /* HotelAppDemoApp.swift in Sources */,
+				CD14879B2A9F84B3007E1F18 /* HotelViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
